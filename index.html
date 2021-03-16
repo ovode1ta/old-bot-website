@@ -1,160 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<!DOCTYPE HTML>
 
-<html>
-	<head>
-		<title>MEE9 Bot for Discord</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <link href="style.css" rel="stylesheet">
 		<script async src="https://arc.io/widget.min.js#YuRP7x9Q"></script>
-	</head>
-	<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
-					
-				<!-- Header -->
-					<header id="header" class="alt">
-					    <span class="logo"><img src="images/logo.png" alt="" /></span>
-						<h1>MEE9</h1>
-						<p>The constantly updated Discord bot for server owners.<br />
-						Made by <a href="https://cgd.pw" target="_blank">cgd</a>.</p>
-					</header>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li><a href="#intro" class="active">Introduction</a></li>
-							<li><a href="#section1">Features</a></li>
-							<li><a href="#section2">Support</a></li>
-							<li><a href="#cmds">More info</a></li>
-						</ul>
-					</nav>
+    <title>MEE9 Bot for Discord</title>
 
-				<!-- Main -->
-					<div id="main">
+    
+  </head>
 
-						<!-- Introduction -->
-							<section id="intro" class="main">
-								<div class="spotlight">
-									<div class="content">
-										<header class="major">
-											<h2>MEE9 Bot for Discord.</h2>
-										</header>
-										<p>MEE9 has many useful features deigned for server owners.
-										<ul class="actions">
-											<div data-tilt data-tilt-scale="1.5">
-												<li><a href="https://invite.mee9.dev" target="_blank" class="button">Invite</a></li>
-											</div>
-										</ul>
-									</div>
-									<i class="fab fa-discord fa-10x"></i>
-									
-								</div>
-							</section>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">MEE9</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+          aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+          </ul>
 
-						<!-- First Section -->
-							<section id="section1" class="main special">
-								<header class="major">
-									<h2>Features</h2>
-								</header>
-								<ul class="features">
-									<li>
-										<div data-tilt data-tilt-scale="1.1">
-											<span class="icon solid major style1 fa-code"></span>
-											<h3>99.983% Uptime</h3>
-											<p>The bot is online 99.983% of the time to ensure that you never experience downtime.</p>
-											</div>
-									</li>
-									<li>
-										<div data-tilt data-tilt-scale="1.1">
-											<span class="icon solid major fa-mouse-pointer"></span>
-											<h3>Easy to use</h3>
-											<p>Invite MEE9 with only 4 clicks.</p>
-										</div>
-									</li>
-									<li>
-										<div data-tilt data-tilt-scale="1.1">
-											<span class="icon major style5 fa-gem"></span>
-											<h3>Premium features</h3>
-											<p>Coming soon!</p>
-										</div>
-									</li>
-								</ul>
-								<footer class="major">
-									<ul class="actions special">
+        </div>
+      </div>
+    </nav>
 
-									</ul>
-								</footer>
-							</section>
 
-						<!-- Second Section -->
-							<section id="section2" class="main special">
-								<header class="major">
-									<h2>Need help?</h2>
-									<p>Join the support server.</p>
-										<iframe src="https://discord.com/widget?id=793848014338654228&theme=dark" width="600" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
-								</header>
-								
-								
-								<footer class="major">
-									<ul class="actions special">
 
-									</ul>
-								</footer>
-							</section>
+    <br>
+    <h1 style="text-align: center;">MEE9</h1>
+    <h2 style="text-align: center;">The last Discord bot
+      you'll ever need.</h2>
+    <br>
+    <div class="shadow card text-white bg-dark mb-3" style="max-width: 18rem;">
+      <div class="card-header">
+        <h4>Invite</h4>
+      </div>
+      <div class="card-body">
+        <p class="card-text">Invite MEE9 to your server now to get access to all the features your server needs.</p>
+        <button type="button" style="text-align: center" class="btn btn-secondary"
+          onclick="goto('https://invite.mee9.dev')">Invite</button>
 
-						<!-- Get Started
-							<section id="cmds" class="main special">
-								<header class="major">
-									<h2>Lost?</h2>
-								  <p>Here are some links to help you get started.</p>
-									<p><a href="https://mee9.dev/faq">FAQ</a></p>
-								  <p><a href="404.html">Commands</a></p>
-									<p></p>
+      </div>
+      <hr>
+      <div class="card-header">
+        <h4>Support</h4>
+      </div>
+      <div class="card-body">
+        <p class="card-text">Got questions? We're happy to help! Just join the support server and ping <span
+            title="cgd#1012" style="color: aqua; cursor: help">@cgd</span> with your question.</p>
+        <button type="button" class="btn btn-secondary" onclick="goto('https://discord.mee9.dev')">Join</button>
 
-                                </header> -->
-								<!-- <footer class="major"> -->
-									<!-- <ul class="actions special">
-										<li><a href="commands" target="_blank" class="button primary">Commands</a></li> -->
+      </div>
 
-									</ul>
-								</footer>
-							</section>
-							<br>
-							<br>
-							<br>
-							<br>
-							<br>
-							<br>
-							<br>
-							
+    </div>
 
-					</div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
 
-				<!-- Footer -->
-					<footer id="footer">
-					
 
-							</dl>
-						</section>
-					
-					</footer>
 
-			</div>
+    <h1 style="text-align: center; font-size: 45px; padding-bottom: 5px " id="features">Features</h1>
+    <br>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script type="text/javascript" src="vanilla-tilt.js"></script>
+    <div class="container" id="fun">
+      <h2 class="gr-text-1" style="font-size: 40px">Fun commands</h2>
+      <p>Commands that help keep chat active</p>
+      <img class="shadow" src="https://cdn.clippy.gg/36186b79-aab7-44d8-85ff-a8a69b03049f/912e494.png" width=600>
+      <br><br>
+      <br>
 
-	</body>
+    </div>
+    <hr>
+    <div class="container" id="moderation">
+      <h2 class="gr-text-3" style="font-size: 40px">Moderation</h2>
+      <p style>Commands to make managing your server easier.</p>
+      <img class="shadow" src="https://cdn.clippy.gg/36186b79-aab7-44d8-85ff-a8a69b03049f/86598dd.png" width=600>
+      <br><br>
+      <br>
+
+    </div>
+    <hr>
+
+    <br>
+    <div class="jumbotron" style="text-align: center">
+      <h1 class="display-4 gr-text-6">And so much more</h1>
+      <p class="lead">With contstant updates and 45+ commands, MEE9 is sure to<br>exceed all your expectations.</p>
+      <br>
+      <button type="button" onclick="goto('https://invite.mee9.dev')"
+        class="btn btn-outline-light btn-lg">Invite</button>____<button type="button"
+        onclick="goto('https://discord.me9.dev')" class="btn btn-outline-light btn-lg">Server</button>
+
+      <br>
+      <br>
+      <br>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+
+
+    <script>
+      function goto(url) {
+        location.replace(url)
+      }
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $('.toast').toast('show');
+      });
+    </script>
+
+
+  </body>
+
 </html>
